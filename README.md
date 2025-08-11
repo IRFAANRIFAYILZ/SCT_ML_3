@@ -1,56 +1,62 @@
 # SCT_ML_3
-# CAT VS DOG IMAGE CLASSIFIER 
+# CAT VS DOG CLASSIFIER
+# ABOUT
+This project is a machine learning-based image classifier that can determine whether an uploaded image is of a cat or a dog.
+The tool comes with a beautiful, colorful, and user-friendly Tkinter GUI, making it attractive for presentations, demonstrations, and learning purposes.
+---
 
-## ABOUT
-This project demonstrates a simple **machine learning model** that classifies images as **Cat** or **Dog** using a **Support Vector Machine (SVM)**.  
-It automatically downloads images from the internet, processes them, trains a model, and evaluates its accuracy.
+# FEATURES
+1) Upload any image (JPG, JPEG, PNG) to classify it as a cat or dog.
+2) Professional yet playful design with color-coded results:
+3) Pink background for Cats
+4) Light blue background for Dogs 🐶
+5) Image preview inside the application.
+6) Hover effects on buttons for interactivity.
+7) Uses a pre-trained machine learning model for predictions.
+---
+
+# TECHNOLOGY USED
+1) Python (preferably version 3.10 or higher)
+2) scikit-learn – for machine learning model loading and prediction.
+3) OpenCV – for image preprocessing and resizing.
+4) Pillow (PIL) – for image display in the Tkinter GUI.
+5) Tkinter – for creating the interactive desktop application.
+---
+
+# SAMPLE OUTPUT
+
+Inputs:
+Upload any cat or dog image from your system.
+
+Outputs:
+Prediction Label: Displays "Cat" or "Dog".
+
+Image Preview: Shows the uploaded image.
+Color-coded background based on prediction.
+
+Example Screenshots:
+
+<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/755b9a53-15c5-4696-a7ad-e980bb6ce447" />
+
+Cat Prediction: 
+<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/b95b8d9c-4c42-4524-bf50-7b241b457222" />
+
+Dog Prediction: 
+<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/345aafaf-73f4-48b2-ac94-8b53d84a1ad4" />
 
 ---
 
-## FEATURES
-1. Classifies images into **Cat** or **Dog**.
-2. Automatically downloads images from the internet using **DuckDuckGo Search API**.
-3. Uses **OpenCV** for image preprocessing.
-4. **Support Vector Machine (SVM)** classifier from scikit-learn.
-5. Displays **accuracy score** and a **classification report**.
-6. Skips unreadable/broken images automatically.
+# POINTS TO NOTE
 
+This is a basic-level project designed for learning and demonstration purposes.
+For real-world accuracy, train the model with more diverse and high-quality data.
+Ensure the file model.pkl (pre-trained model) is in the same directory as this script before running.
 ---
 
-## TECHNOLOGY USED
-1. **Python** (Preferably version 3.10 or higher)
-2. **OpenCV** – For image reading, resizing, and preprocessing.
-3. **scikit-learn** – For training and evaluating the Support Vector Machine (SVM) model.
-4. **tqdm** – For showing progress bars while downloading images.
-5. **requests** – For fetching images from the internet.
-6. **ddgs** – DuckDuckGo Search API for downloading images.
+# TECHNIQUES USED
+Machine Learning (Classification): Uses a pre-trained model trained on grayscale, resized images (64x64).
+Image Preprocessing: Resizing, grayscale conversion, and flattening for model input.
+GUI Development: Tkinter used to create a modern, user-friendly interface.
+Interactive Design: Color-coded predictions, hover effects, and emoji integration.
 
----
-
-## TECHNIQUES USED
-- **Image Preprocessing**:  
-  - Resizing all images to a fixed size (128x128).  
-  - Converting images into flat numerical arrays for model input.  
-  - Skipping broken or unreadable images.
-
-- **Machine Learning Model**:  
-  - Used **Support Vector Machine (SVM)** for binary classification (Cat vs Dog).
-  - Split dataset into **Training (80%)** and **Testing (20%)**.
-  - Measured **Accuracy, Precision, Recall, and F1-score**.
-
-- **Automation**:
-  - Automatically downloads and stores training images for each category.
-  - Uses progress bars for better user experience.
-
----
-
-## SAMPLE OUTPUT
-**Process:**
-- Downloads ~30 images for both cats and dogs.
-- Resizes and flattens each image.
-- Trains an SVM classifier.
-- Evaluates model on test data.
-
-**Output:**
-<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/5687c427-fa48-47a9-ade5-76b0aca17dce" />
-<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/431142f6-77b3-4b42-b5a4-a3f70ec67653" />
+# Built with eagerness to learn.
