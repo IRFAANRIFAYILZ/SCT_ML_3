@@ -3,6 +3,7 @@
 # ABOUT
 This project is a machine learning-based image classifier that can determine whether an uploaded image is of a cat or a dog.
 The tool comes with a beautiful, colorful, and user-friendly Tkinter GUI, making it attractive for presentations, demonstrations, and learning purposes.
+
 ---
 
 # FEATURES
