@@ -10,7 +10,7 @@ The tool comes with a beautiful, colorful, and user-friendly Tkinter GUI, making
 1) Upload any image (JPG, JPEG, PNG) to classify it as a cat or dog.
 2) Professional yet playful design with color-coded results:
 3) Pink background for Cats
-4) Light blue background for Dogs 🐶
+4) Light blue background for Dogs.
 5) Image preview inside the application.
 6) Hover effects on buttons for interactivity.
 7) Uses a pre-trained machine learning model for predictions.
@@ -39,10 +39,10 @@ Example Screenshots:
 
 <img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/755b9a53-15c5-4696-a7ad-e980bb6ce447" />
 
-Cat Prediction: 
+Dog Prediction: 
 <img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/b95b8d9c-4c42-4524-bf50-7b241b457222" />
 
-Dog Prediction: 
+Cat Prediction: 
 <img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/345aafaf-73f4-48b2-ac94-8b53d84a1ad4" />
 
 ---
